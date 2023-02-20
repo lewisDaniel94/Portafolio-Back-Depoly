@@ -3,11 +3,14 @@ C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafo
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Security\Dto\NuevoUsuario.java
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Security\Enums\RolNombre.java
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Security\Controller\AuthController.java
+C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Repository\RProyectos.java
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Security\Dto\LoginUsuario.java
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Security\Entity\Rol.java
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Security\jwt\JwtEntryPoint.java
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Repository\Rhys.java
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Security\Dto\JwtDto.java
+C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Service\Sproyectos.java
+C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Entity\Proyectos.java
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Entity\Experiencia.java
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Repository\RExperiencia.java
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Entity\hys.java
@@ -34,6 +37,8 @@ C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafo
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Controller\CExperiencia.java
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Entity\Persona.java
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Dto\dtoPersona.java
+C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Controller\CProyectos.java
+C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Dto\dtoProyectos.java
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Controller\CHys.java
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Dto\dtoHys.java
 C:\Users\Gabriel Habano\Desktop\Funciona BACK - Deploy\src\main\java\com\portafolio\mgb\Service\SExperiencia.java
