@@ -24,18 +24,14 @@ public class Persona {
     
     @NotNull
     private String descripcion;
-   
-    
 
     public Persona() {
     }
 
-    public Persona(int id, String nombre, String apellido, String descripcion) {
-        this.id = id;
+    public Persona(String nombre, String apellido, String descripcion) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.descripcion = descripcion;
-        
     }
 
     public int getId() {
@@ -69,8 +65,8 @@ public class Persona {
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
-
-
+   
+    
 
     
 }

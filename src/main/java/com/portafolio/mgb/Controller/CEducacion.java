@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/educacion")
-@CrossOrigin(origins = {"https://portafolio-back-lws.web.app","http://localhost:4200"})
+@CrossOrigin(origins = "https://portafolio-back-lws.web.app")
 public class CEducacion {
     @Autowired
     Seducacion sEducacion;
@@ -99,7 +99,7 @@ public class CEducacion {
         educacion.setDescripcionE((dtoeducacion.getDescripcionE()));
         
         sEducacion.save(educacion);
-        return new ResponseEntity(new Mensaje("Experiencia actualizada"), HttpStatus.OK);
+        return new ResponseEntity(new Mensaje("Educacion actualizada"), HttpStatus.OK);
     }
     
     
