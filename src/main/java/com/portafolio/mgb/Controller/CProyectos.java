@@ -5,17 +5,23 @@
 package com.portafolio.mgb.Controller;
 
 
+
 import com.portafolio.mgb.Entity.Proyectos;
+import com.portafolio.mgb.Security.Controller.Mensaje;
 
 import com.portafolio.mgb.Service.SProyectos;
 import java.util.List;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
 
 
 
@@ -36,27 +42,21 @@ public class CProyectos {
         return new ResponseEntity(list, HttpStatus.OK);
     
     }
- 
-
-    }
-    
-    
-    
-    
-  
-    
-    
-    /*
-    
-        @DeleteMapping("/delete/{id}")
+     @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> delete(@PathVariable("id") int id) {
         if (!sProyectos.existsById(id)) {
             return new ResponseEntity(new Mensaje("no existe"), HttpStatus.NOT_FOUND);
         }
         sProyectos.delete(id);
-        return new ResponseEntity(new Mensaje("producto eliminado"), HttpStatus.OK);
+        return new ResponseEntity(new Mensaje("preyecto eliminado"), HttpStatus.OK);
     }
-   */
     
+   
+
+    }
+    
+    
+    
+
    
 

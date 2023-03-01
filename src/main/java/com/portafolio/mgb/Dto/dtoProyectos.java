@@ -12,8 +12,7 @@ import javax.validation.constraints.NotBlank;
  */
 public class dtoProyectos {
     
-   @NotBlank
-    private String id;
+   
     @NotBlank
     private String nombre;
     @NotBlank
@@ -25,14 +24,6 @@ public class dtoProyectos {
     public dtoProyectos(String nombre, String descripcion) {
         this.nombre = nombre;
         this.descripcion = descripcion;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public String getNombre() {
@@ -51,6 +42,7 @@ public class dtoProyectos {
         this.descripcion = descripcion;
     }
 
+  
    
    
     
