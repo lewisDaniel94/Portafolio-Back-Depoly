@@ -11,34 +11,48 @@ import javax.validation.constraints.NotBlank;
  * @author Gabriel Habano
  */
 public class dtoProyectos {
+    
+   @NotBlank
+    private String id;
     @NotBlank
-    private String nombreE;
+    private String nombre;
     @NotBlank
-    private String descripcionE;
+    private String descripcion;
 
     public dtoProyectos() {
     }
 
-    public dtoProyectos(String nombreE, String descripcionE) {
-        this.nombreE = nombreE;
-        this.descripcionE = descripcionE;
+    public dtoProyectos(String nombre, String descripcion) {
+        this.nombre = nombre;
+        this.descripcion = descripcion;
     }
 
-    public String getNombreE() {
-        return nombreE;
+    public String getId() {
+        return id;
     }
 
-    public void setNombreE(String nombreE) {
-        this.nombreE = nombreE;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public String getDescripcionE() {
-        return descripcionE;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setDescripcionE(String descripcionE) {
-        this.descripcionE = descripcionE;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+   
+   
     
     
 }

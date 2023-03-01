@@ -18,16 +18,15 @@ public class Proyectos {
      @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String nombreE;
-    private String descripcionE;
+    private String nombreP;
+    private String descripcionP;
 
     public Proyectos() {
     }
 
-    public Proyectos(int id, String nombreE, String descripcionE) {
-        this.id = id;
-        this.nombreE = nombreE;
-        this.descripcionE = descripcionE;
+    public Proyectos(String nombreP, String descripcionP) {
+        this.nombreP = nombreP;
+        this.descripcionP = descripcionP;
     }
 
     public int getId() {
@@ -38,21 +37,22 @@ public class Proyectos {
         this.id = id;
     }
 
-    public String getNombreE() {
-        return nombreE;
+    public String getNombreP() {
+        return nombreP;
     }
 
-    public void setNombreE(String nombreE) {
-        this.nombreE = nombreE;
+    public void setNombreP(String nombreP) {
+        this.nombreP = nombreP;
     }
 
-    public String getDescripcionE() {
-        return descripcionE;
+    public String getDescripcionP() {
+        return descripcionP;
     }
 
-    public void setDescripcionE(String descripcionE) {
-        this.descripcionE = descripcionE;
+    public void setDescripcionP(String descripcionP) {
+        this.descripcionP = descripcionP;
     }
-    
+
+   
     
 }

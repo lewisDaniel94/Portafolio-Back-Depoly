@@ -8,6 +8,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 
 public interface RProyectos extends JpaRepository<Proyectos, Integer> {
-    public Optional <Proyectos> findByNombreE(String nombreE);
-    public boolean existsByNombreE(String nombreE);
+    public Optional <Proyectos> findByNombreP(String nombreP);
+    public boolean existsByNombreP(String nombreP);
 }

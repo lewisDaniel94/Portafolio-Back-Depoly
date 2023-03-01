@@ -4,28 +4,31 @@
  */
 package com.portafolio.mgb.Controller;
 
+
 import com.portafolio.mgb.Entity.Proyectos;
-import com.portafolio.mgb.Security.Controller.Mensaje;
-import com.portafolio.mgb.Service.Sproyectos;
+
+import com.portafolio.mgb.Service.SProyectos;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.DeleteMapping;
+
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
+
+
+
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/proyectos")
-@CrossOrigin(origins = "https://portafolio-back-lws.web.app")
+@CrossOrigin(origins = "https://portafoliobacklws.onrender.com")
 public class CProyectos {
      @Autowired
-    Sproyectos sProyectos;
+    SProyectos sProyectos;
      
          @GetMapping("/lista")
     public ResponseEntity<List<Proyectos>> list(){
@@ -33,14 +36,27 @@ public class CProyectos {
         return new ResponseEntity(list, HttpStatus.OK);
     
     }
-         @DeleteMapping("/delete/{id}")
+ 
+
+    }
+    
+    
+    
+    
+  
+    
+    
+    /*
+    
+        @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> delete(@PathVariable("id") int id) {
         if (!sProyectos.existsById(id)) {
-            return new ResponseEntity(new Mensaje("no existe el id"), HttpStatus.NOT_FOUND);
+            return new ResponseEntity(new Mensaje("no existe"), HttpStatus.NOT_FOUND);
         }
         sProyectos.delete(id);
-        return new ResponseEntity(new Mensaje("educacion eliminada"), HttpStatus.OK);
+        return new ResponseEntity(new Mensaje("producto eliminado"), HttpStatus.OK);
     }
+   */
+    
    
-}   
 
